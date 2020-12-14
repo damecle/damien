@@ -1,0 +1,15 @@
+/*élément principaux de la pages*/
+
+
+
+/*section*/
+#exp
+{
+	display: flex;
+
+}
+
+#description_exp
+{
+	margin-left: 20px
+}
