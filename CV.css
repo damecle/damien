@@ -1,0 +1,260 @@
+/*élément principaux de la pages*/
+body
+{
+	background-color: #ABB7DB;
+	margin: auto;
+}
+
+
+
+
+
+/*header*/
+header
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #372A6E;
+	color: white;
+	border:2px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-shadow: 0px 4px 4px #1c1a19
+}
+header img
+{
+	width: 100px;
+	height:50px;
+	padding-right: 10px;
+}
+
+#mail
+{
+	display: flex;
+	
+}
+#portable
+{
+	display: flex;
+	
+}
+#adresse
+{
+	display: flex;
+
+}
+#permis
+{
+	display: flex;
+
+}
+/*main*/
+
+#main_header
+{
+	display: flex;
+	justify-content: space-between;
+	margin:auto;
+	align-items: center;
+	border-bottom: 3px solid black;
+	margin-bottom: 10px;
+	
+
+}
+h2
+{
+	flex: 1;
+	margin-left: 5%;
+}
+.dev
+{
+	text-align: center;
+}
+h1
+{
+	flex: 2;
+	text-align: center;
+	margin-left: 10%;
+}
+figure img
+{
+	flex: 3;
+	width: 40%;
+	margin-left: 65%;
+	transition: width 2s, margin-left 2s, transform 2s;
+	
+}
+figure img:hover
+{
+	flex: 3;
+	width: 60%;
+	margin-left: 45%;
+}
+/*section*/
+section
+{
+	display: block;
+}
+h3
+{
+	background-color: #505566;
+	color: white;
+	font-size: 24px;
+	padding-left: 10px;
+	box-shadow: 0px 4px 4px #1c1a19
+}
+
+/*Mes competences*/
+
+.competences
+{
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+.infolog
+{
+	width: 48%;
+
+}
+
+.comaut
+{
+	width: 50%;
+}
+
+dt
+{
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #62968B;
+	font-size: 20px;
+	border-radius: 20px;
+
+}
+dd ul
+{
+	margin: 0;padding: 0;
+
+}
+dd ul li
+{
+	height: 30px;
+	line-height: 30px;
+}
+dl dd
+{
+	display: none;
+}
+dt:hover
+{
+	background-color: #324D47;
+	color: white;
+}
+dl:hover dd
+{
+	display: block;
+}
+
+/*mes experiences*/
+.partie2
+
+			
+				/*fleches*/
+
+
+
+#fleche_gauche
+{
+
+	display: block;
+	float: left;
+	height: 100px;
+	transform: rotate(180deg);
+	margin-top: 10%;
+	margin-left: 2%;
+	transition: all 1s ease-out;
+}
+#fleche_gauche:hover,#fleche_gauche:focus
+{
+	height: 150px;
+}
+#fleche_droite
+{
+
+	display: block;
+	float: right;
+	height: 100px;
+	margin-top: 10%;
+	margin-right: 2%;
+	transition: all 1s ease-out;
+}
+#fleche_droite:hover,#fleche_droite:focus
+{
+	height: 150px;
+}
+
+				/*slide*/
+
+#les_exp
+{
+	margin-left: 30%;
+	width: 700px;
+	overflow: hidden;
+	
+}
+.slides img
+{
+	width: 700px;
+}
+.slides
+{
+	display: flex;
+	animation: glisse 2s
+
+}
+.slide
+{
+	
+}
+@keyframes glisse {
+	0%{
+		transform: translateX(0);
+}
+	0%{
+		transform: translateX(700px);
+	}
+}
+
+
+
+
+
+
+
+/*Mes formations*/
+
+#formations
+{
+	display: flex;
+
+}
+
+#description_exp
+{
+	margin-left: 20px;
+}
+
+#date
+{
+	font-size: 18px;
+}
+
+#description_exp
+{
+	font-size: 18px;
+	padding-left: 50px;
+}
