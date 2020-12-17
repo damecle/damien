@@ -100,19 +100,26 @@
   			<section>
                     <!--experience-->
   				<h3>Mes expériences</h3>
-            <div class="partie2">
+            <div class="recipient">
+                              <!--points pour visualiser le nombre d'images-->
+              <input type="radio" name="images" id="i1">
+              <input type="radio" name="images" id="i2">
                               <!--fleches-->
               <div id=fleche>
                 <img id="fleche_gauche" src="images/fleche.png" alt="fleche de gauche" />
                 <img id="fleche_droite" src="images/fleche.png" alt="fleche de droite"/>
               </div>
                               <!--slides-->
-              <div id="les_exp">
+              <div class="les_exp">
                 <div class="slides">
-                  <div class="slide">
+                  <div class="slide" id="one">
                     <img src="images/anim.png" alt="image d'Animateur"/>
+
+                      <!--pre on met image avant (i3) et nxt images aprés (i2) comme on est sur image 1 et qu'il y a 3 images [ici, iln'y en a que 2]-->
+                      <label for="i2" class="pre"></label>
+                      <label for="i2" class="nex"></label>
                   </div>
-                  <div class="slide">
+                  <div class="slide" id="two">
                     <img src="images/mairie.png" alt="image du logo de Cambrai"/>
                   </div>
                   <div class="slide"></div>
