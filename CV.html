@@ -3,43 +3,66 @@
 <html>
   <head>
     <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <link rel="stylesheet" type="text/css" href="CV.css">
+
+
     <title>Damien Lasson</title>
   </head>
 
   <body>
   	<div id="bloc_page">
       <!-- header -->
-	  	<header>
-	  	  <div id="mail">
-          <img src="images/logomail.png" alt="logo d'email"/>
-          <p>damien.lasson@hotmail.fr</p>         
+      <header class="sticky-top">
+      <nav class="navbar-brand-light bg-light">
+        <div class="container-fluid">
+          <div class="row row-cols-4">
+            <div class="col">
+              <div id="mail ">
+              <img src="images/lettre.png" alt="logo d'email" width="50" height="50" 
+              class="rounded float-start d-inline-block align-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"/>
+              <p class="navbar-text h6 d-none d-lg-block">damien.lasson@hotmail.fr</p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  damien.lasson@hotmail.fr
+                </div>
+              </div>         
+            </div>
+            </div>
+            <div class="col">
+              <div id="portable">
+              <img src="images/tel.jpg" alt="logo de Telephone" width="50" height="50" 
+              class="rounded float-start"/>   
+              <p class="navbar-text h6 d-none d-lg-block">06.73.97.54.86</p>
+            </div>
+            </div>
+            <div class="col">
+              <div id="adresse">
+              <img src="images/maison.png" alt="logo pour l'adresse" width="50" height="50" 
+              class="rounded float-start"/>
+              <p class="navbar-text h6 d-none d-lg-block">26 rue  Victor Hugo, Walincourt-Selvigny</p>
+            </div>
+            </div> 
+            <div class="col">
+              <div id="permis">
+              <img src="images/voit.jpg" alt="logo pour le permis" width="50" height="50" 
+              class="rounded float-start"/>
+              <p class="navbar-text h6 d-none d-lg-block">Permis B</p>
+            </div>
+            </div>
+          </div>
         </div>
-        <div id="portable">
-          <img src="images/logotel.png" alt="logo de Telephone"/>   
-          <p>06.73.97.54.86</p>
-        </div>
-        <div id="adresse">
-          <img src="images/logomaison.png" alt="logo pour l'adresse"/>
-          <p>26 rue Victor Hugo, Walincourt-Selvigny</p>
-        </div>
-        <div id="permis">
-          <img src="images/logovoiture.png" alt="logo pour le permis"/>
-          <p>Permis B</p>
-        </div>
+      </nav>
 	  	</header>
+
       <!--Main-header-->
       <div id=main_header>
-          <h2>Damien Lasson</h2>
 
           <h1><span class="dev">Développeur<br/></span> 
           web et web mobile</h1>
 
-          <figure>
-            <a href="images/ane.jpg" target="_blank">
-              <img src="images/aneTete.jpg" alt="ane de shrek"/>
-            </a>
-          </figure>
+  
       <!--Main-->
                     <!--compétences-->
       </div>
@@ -101,32 +124,32 @@
                     <!--experience-->
   				<h3>Mes expériences</h3>
             <div class="recipient">
-                              <!--points pour visualiser le nombre d'images-->
-              <input type="radio" name="images" id="i1">
-              <input type="radio" name="images" id="i2">
-                              <!--fleches-->
-              <div id=fleche>
-                <img id="fleche_gauche" src="images/fleche.png" alt="fleche de gauche" />
-                <img id="fleche_droite" src="images/fleche.png" alt="fleche de droite"/>
-              </div>
-                              <!--slides-->
-              <div class="les_exp">
-                <div class="slides">
-                  <div class="slide" id="one">
-                    <img src="images/anim.png" alt="image d'Animateur"/>
-
-                      <!--pre on met image avant (i3) et nxt images aprés (i2) comme on est sur image 1 et qu'il y a 3 images [ici, iln'y en a que 2]-->
-                      <label for="i2" class="pre"></label>
-                      <label for="i2" class="nex"></label>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                   <ol class="carousel-indicators">
+                      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                    </ol>
+                     <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/anim.png" class="d-block w-100" alt="image d'animateur">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/mairie.png" class="d-block w-100" alt="mairie de Cambrai">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </a>
                   </div>
-                  <div class="slide" id="two">
-                    <img src="images/mairie.png" alt="image du logo de Cambrai"/>
-                  </div>
-                  <div class="slide"></div>
-                  <div class="slide"></div>
-                  <div class="slide"></div>
-                </div>
-              </div>
             </div>
   			</section>
   			<section>
@@ -148,11 +171,39 @@
   							<p><strong>Chef de projet en Aménagement durable des Territoires</strong><br/>
   										ENTE-Valenciennes</p>
   							<p><strong>Titre professionnel-Technicien d'Assistance en Informatique</strong><br/>
-  										AFPI de Cambrai</p>
+  										AFPI de Cambrai
+                      ok<br>
+                    ok<br>
+                  ok<br>
+                ok<br>
+              ok<br>
+            ok<br>
+          ok<br>
+        ok<br>
+      ok<br>
+    ok<br>
+  ok<br>
+ok<br>
+ok<br>
+ok<br>
+ok<br>
+ok<br>
+ok<br>
+ok<br>
+ok<br>
+ok<br>
+ok<br>
+ok<br>
+ok<br>
+ok<br>
+ok<br>
+ok<br></p>
   						</div>	
   					</div>
   			</section>
   			<!--Footer-->	
+
+        <script type="text/javascript" src="bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.js"></script>
     </div>
   </body>
 </html>
