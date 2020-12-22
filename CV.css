@@ -10,11 +10,7 @@ header{
 	border-bottom: solid purple;
 }
 
-.container-fluid img{
-	/*width: 65px;
-	height: 50px;*/
 
-}
 .container-fluid p{
 	
 	margin-left: 60px;
@@ -45,12 +41,13 @@ h3
 	color: white;
 	font-size: 24px;
 	padding-left: 10px;
+	margin-top: 10px;
 	box-shadow: 0px 4px 4px #1c1a19
 }
 
 /*Mes competences*/
 
-.competences
+/*.competences
 {
 	display: flex;
 	justify-content: space-between;
@@ -68,18 +65,18 @@ h3
 {
 	width: 50%;
 }
-
-dt
+*/
+.btn-cv
 {
-	height: 50px;
-	text-align: center;
-	line-height: 50px;
+	border-radius: 5px;
 	background-color: #62968B;
-	font-size: 20px;
-	border-radius: 20px;
+	box-shadow: 0px 4px 4px #1c1a19
+
+
+
 
 }
-dd ul
+/*dd ul
 {
 	margin: 0;padding: 0;
 
@@ -101,7 +98,7 @@ dt:hover
 dl:hover dd
 {
 	display: block;
-}
+}*/
 
 /*mes experiences*/
 
