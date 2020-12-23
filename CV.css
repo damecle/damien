@@ -7,16 +7,21 @@ body
 
 /*header*/
 header{
+
 	border-bottom: solid purple;
 }
-
+.bg-dark{
+	color: white;
+}
 
 .container-fluid p{
 	
 	margin-left: 60px;
 	
 }
-
+.w{
+	color: white;
+}
 
 
 /*main*/
@@ -108,7 +113,7 @@ dl:hover dd
 
 /*Mes formations*/
 
-#formations
+/*#formations
 {
 	display: flex;
 
@@ -128,8 +133,24 @@ dl:hover dd
 {
 	font-size: 18px;
 	padding-left: 50px;
+}*/
+#aligne{
+	display: flex;
 }
-
+.carré h4{
+	color: #5F2962;
+	
+}
+.valeur{
+	text-shadow: 0px 3px 5px #1c1a19
+}
+.carré p{
+	color: #744582
+}
+.h5{
+	margin-bottom: 42px;
+	margin-right: 15px;
+}
 
 /*responsive*/
 @media screen and (min-width: 992px){
