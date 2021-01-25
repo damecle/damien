@@ -1,0 +1,35 @@
+{
+	"nom":"carapuce",
+	"niveau":40,
+	"nombrePv":300,
+	"nomrePvActuel":299,
+	"ses4attaques":[
+		{	
+			"nom":"charge",
+			"puissance":40,
+			"precision":100,
+			"pp":35,
+		},
+		{	
+			"nom":"pistoletAO",
+			"puissance":40,
+			"precision":100,
+			"pp":35,
+		},
+		{	
+			"nom":"repli",
+			"puissance":40,
+			"precision":100,
+			"pp":35,
+		},
+		{	
+			"nom":"ecume",
+			"puissance":40,
+			"precision":100,
+			"pp":35,
+		}],
+	"statut":"rien",
+	"nomDresseurAttrapé":"Samuel",
+	"est-ilKO":false,
+	"types":["eau"] 
+}

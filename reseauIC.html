@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width">
+
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<link rel="stylesheet" type="text/css" href="reseauIC.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+
+	<title>Dam's</title>
+</head>
+<body>
+	<div class="row g-2">
+		<form action='monReseau.html' id="myForm">
+			<div class="connexion row g-3">
+				<h1>Se connecter</h1>
+				<input type="email" name="email1" placeholder='Email' class='form-control'id='emailCo'>
+				<input type="password" name="mdp1" placeholder='mot de passe'id="" class='form-control'><br/>
+				<input type="submit" class='btn btn-primary btn-lg' name="envoie" value="connexion" id="btn1">
+			</div>
+		</form>
+		<form action='monReseau.html'id="myForm2">
+			<div class="inscription row g-3">
+				<h1>S'inscire</h1>
+				<input type="text" name="pseudo" placeholder='pseudo' class='form-control'>
+				<input type="email" name="email2" placeholder='Email' class='form-control' >
+				<input type="password" name="mdp2" placeholder='mot de passe'id="" class='form-control' ><br/>
+				<input type="submit" class='btn btn-primary btn-lg' name="inscription" value="inscription">
+			</div>
+		</form>
+	</div>
+<script src="reseauIC.js"></script>
+</body>
+</html>

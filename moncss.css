@@ -1,0 +1,11 @@
+.taille{
+	width: 20%;
+}
+.hide{
+	visibility: hidden;
+}
+.centre{
+	position: absolute;
+	width: 60%
+	margin:auto;
+}
