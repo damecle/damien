@@ -1,0 +1,23 @@
+
+/*navbar*/
+.navBar{
+	background-color:#7D0B81
+
+}
+h1{
+	color: white;
+text-align: center;
+}
+
+
+
+
+textarea{
+
+	width: 500px;
+	height:100px;
+}
+.middle{
+display: inline-block;
+margin-left: 35%;
+}

@@ -5,14 +5,38 @@
  <meta name="viewport" content="width=device-width">
 
 <link rel="stylesheet" type="text/css" href="bootstrap.css">
-<link rel="stylesheet" type="text/css" href="reseauIC.css">
+<link rel="stylesheet" type="text/css" href="monreseau.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
 
 	<title>Dam's</title>
 </head>
 <body>
-<p>salut</p>
+<header>
+	<nav class="navbar-brand-light navbar-dark navBar">
+		<h1>Bienvenu sur Dam's</h1>
+	</nav>
+</header>
+	<form action="monReseau.html" id="form3">
+	<div class="middle">
+		<h3>Le MUR</h3>
+		<div>
+		<textarea  name="message" placeholder="Ton message" id="message" ></textarea>
+		</div>
+		<input type="text" name="fichiers" id="file" placeholder="url de la photo">
+		<input type="submit" name="publier" value="publier" >
+	</div>
+	</form>
+	<hr>
+	<div id="leMur">
+		
+	</div>
+	<script>
+		if (!sessionStorage.getItem('user')){
+	window.location.href = "reseauIC.html"
+}
 
+	</script>
+<script src="monReseau.js"></script>
 </body>
 </html>
